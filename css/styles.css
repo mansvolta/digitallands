@@ -13,6 +13,10 @@ h4{
 ul{
 	list-style: none;
 }
+i{
+	margin: .5em 1em;
+	font-size: 3em;
+}
 .main-navigation{
 	background-color: rgba(20,20,20,0.7);
 	display: flex;
