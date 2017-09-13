@@ -14,7 +14,7 @@ h4{
 	background-color: rgba(20,20,20,0.7);
 	display: flex;
 	z-index: 11;
-	height: 10vh;
+	height: 8vh;
 	min-height: 45px;
 	width: 100vw;
 	text-transform: uppercase;
@@ -55,6 +55,7 @@ section{
 	text-decoration: none;
 }
 .work-stuff{
+	list-style: none;
 	width: 100%;
 	display: inline-block;
 }
