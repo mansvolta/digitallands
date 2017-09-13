@@ -7,7 +7,7 @@ h4{
 	font-size: 1.3em;
 }
 .navigation{
-	position: fixed;
+	position: absolute;
 	z-index: 11;
 }
 .main-navigation{
@@ -27,6 +27,7 @@ li{
 }
 .main-navigation .fa{
 	font-size: 1.4em;
+	color: white;
 }
 section{
 	text-align: center;
