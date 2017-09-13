@@ -4,31 +4,29 @@ h3{
 	font-size: 1.5em;
 }
 h4{
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 .navigation{
 	position: fixed;
 	z-index: 11;
-}
-ul{
-	list-style: none;
-}
-i{
-	margin: .5em 1em;
-	font-size: 3em;
 }
 .main-navigation{
 	background-color: rgba(20,20,20,0.7);
 	display: flex;
 	z-index: 11;
 	height: 10vh;
+	min-height: 45px;
 	width: 100vw;
 	text-transform: uppercase;
 	color: white;
+	list-style: none;
 }
-.main-navigation li a svg{
-	width: 125px;
-	height: 125px;
+li{
+	margin: .5em 1em;
+	padding-top: 3px;
+}
+.main-navigation .fa{
+	font-size: 1.4em;
 }
 section{
 	text-align: center;
