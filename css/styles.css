@@ -7,11 +7,11 @@ h4{
 	font-size: 1.3em;
 }
 .navigation{
-	position: absolute;
+	position: fixed;
 	z-index: 11;
 }
 .main-navigation{
-	background-color: rgba(20,20,20,0.7);
+	background-color: rgba(240,20,20,0.5);
 	display: flex;
 	z-index: 11;
 	height: 8vh;
@@ -37,7 +37,7 @@ section{
 	height: 100vh;
 	min-height: 400px;
 	position: relative;
-	background-color: #f1f1f1;
+	background-color: yellow;
 	color: grey;
 }
 .start-image{
@@ -47,6 +47,10 @@ section{
 	position: absolute;
 	top: 0; right: 0; bottom: 0; left: 0;
 	opacity: 0.9;
+}
+.about{
+	height: 100vh;
+	background-color: purple;
 }
 .filters li{
 	display: inline-block;
