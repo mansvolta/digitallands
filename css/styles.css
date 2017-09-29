@@ -6,6 +6,10 @@ h3{
 h4{
 	font-size: 1.3em;
 }
+li{
+	margin: .5em 1em;
+	padding-top: 3px;
+}
 .navigation{
 	position: fixed;
 	z-index: 11;
@@ -14,16 +18,11 @@ h4{
 	background-color: rgba(240,20,20,0.5);
 	display: flex;
 	z-index: 11;
-	height: 8vh;
-	min-height: 45px;
+	height: 45px;
 	width: 100vw;
 	text-transform: uppercase;
 	color: white;
 	list-style: none;
-}
-li{
-	margin: .5em 1em;
-	padding-top: 3px;
 }
 .main-navigation .fa{
 	font-size: 1.4em;
@@ -56,6 +55,10 @@ section{
 
 /*---------WORK STUFFFFF---------*/
 
+
+#work1 .container{
+	padding: 0;
+}
 .filters li{
 	display: inline-block;
 	margin: 0 0.5em;
@@ -71,29 +74,30 @@ section{
 .work-stuff li{
 	position: relative;
 	overflow: hidden;
-	height: 25vw;
+	height: auto;
 	margin: 0!important;
 	width: 25%;
-	border: 10px solid white;
+	border: 3px solid white !important;
+	padding: 0;
 } 
 .work-stuff li:nth-child(4n){
 	margin-left: 0;
 }
 .work-stuff li img{
-	width: auto;
-	height: 100%;
+	width: 100%;
+	height: auto;
 	display: block;
-}
-.titulo{
-	position: absolute;
-	opacity: 0;
-	background: rgba(0,0,0,0.9);
-	color: white;
-	top: 0; right: 0; bottom: 0; left: 0;
 }
 .work-stuff li:hover .titulo{
 	opacity: 1;
 	box-shadow: inset 0 0 0 10px #222;
+}
+.titulo{
+	position: absolute;
+	opacity: 0;
+	background: rgba(0,0,0,0.6);
+	color: white;
+	top: 0; right: 0; bottom: 0; left: 0;
 }
 .active{
 	/*width: 15vw;*/
